@@ -1,0 +1,177 @@
+/* Base Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Headings */
+h2, h4 {
+    margin: 20px 0 10px;
+    font-weight: 600;
+    color: #222;
+}
+
+/* Table Styling */
+table {
+    width: 95%;
+    max-width: 1100px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+}
+
+th, td {
+    padding: 12px 14px;
+    text-align: center;
+    font-size: 14px;
+}
+
+th {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: 500;
+}
+
+tr:nth-child(even) {
+    background-color: #f6f8fa;
+}
+
+tr:hover {
+    background-color: #eef2f7;
+}
+
+/* Profile Images */
+img {
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+}
+
+/* Button Base */
+.btn, input[type="submit"], button {
+    padding: 10px 18px;
+    margin: 6px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn:hover, input[type="submit"]:hover, button:hover {
+    background-color: #0056b3;
+}
+
+/* Action Button Colors */
+#edit-link {
+    background-color: #17a2b8;
+}
+
+#edit-link:hover {
+    background-color: #128496;
+}
+
+#delete-link {
+    background-color: #dc3545;
+}
+
+#delete-link:hover {
+    background-color: #c82333;
+}
+
+#fees-link {
+    background-color: #28a745;
+}
+
+#fees-link:hover {
+    background-color: #1e7e34;
+}
+
+#enroll-link {
+    background-color: #6f42c1;
+}
+
+#enroll-link:hover {
+    background-color: #5936a2;
+}
+
+#result-link {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+#result-link:hover {
+    background-color: #e0a800;
+}
+
+/* Button Container */
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin: 10px 0 20px;
+}
+
+/* AJAX Data Display Panel */
+#data-display {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 95%;
+    max-width: 1100px;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.03);
+    overflow-x: auto;
+}
+
+/* Form Styling */
+form {
+    margin: 20px auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    table, th, td {
+        font-size: 13px;
+    }
+
+    .btn, input[type="submit"], button {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .btn-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #data-display {
+        padding: 15px;
+    }
+}

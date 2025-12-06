@@ -1,0 +1,20 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore cache directories
+educenter-master/cache/
+educenter-master/vendor/
+
+# Ignore environment/config files
+educenter-master/.env
+
+# Ignore logs
+*.log
+
+# Ignore node modules (if used)
+educenter-master/node_modules/
+
+# Ignore temporary and backup files
+*.bak
+*.tmp
