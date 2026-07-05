@@ -96,15 +96,15 @@ Automated confirmation and notification emails are sent for registration, result
 
 3. Install PHP dependencies:
 
-4. Open phpMyAdmin (`http://localhost/phpmyadmin`) and create a new database (e.g. `techverse_db`).
+4. Open phpMyAdmin (`http://localhost/phpmyadmin`) and create a new database (e.g. `techverse_db or ims`).
 
 5. Import the provided SQL schema/dump into that database.
 
-6. Update database credentials in the config file (e.g. `db_connect.php` / `config.php`) to match your local setup.
+6. Update database credentials in the config file (e.g. `connection.php`) to match your local setup.
 
-7. Update SMTP/email credentials in the mail config with your own values (do not commit real credentials).
+7. Update SMTP/email credentials in the mail config with your own values.
 
-8. Visit `http://localhost/techverse/index.php` in your browser.
+8. Visit `http://localhost/educenter-master/educenter-master/` in your browser.
 
 ## Future Enhancements
 
