@@ -1,0 +1,6 @@
+{
+    "name": "mit-patil/techverse-ims",
+    "require": {
+        "phpmailer/phpmailer": "^7.1"
+    }
+}
